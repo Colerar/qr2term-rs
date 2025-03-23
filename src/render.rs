@@ -1,9 +1,8 @@
 //! Rendering utilities.
 
-use std::io::{self, Result as IoResult, Write};
-
-use crossterm::style::Stylize;
+use owo_colors::OwoColorize;
 pub use qrcode::types::Color::{self, Dark as QrDark, Light as QrLight};
+use std::io::{self, Result as IoResult, Write};
 
 use crate::matrix::Matrix;
 
